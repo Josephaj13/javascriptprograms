@@ -8,13 +8,9 @@ for(let num of arr){
 }
 
 var arr=[4,3,6];
-var total=0;
-
-
-for(let item of arr){
-    total=total+item;
-}
+var cnt=1;
 
 for(let num of arr){
-    console.log(total-num);
+    console.log(num**cnt);
+    cnt=cnt+1;
 }
