@@ -1,11 +1,10 @@
 var arr=[10,11,12,14,15,16];
 
-var element=13;
-var flag=0;
+var element=15;
 
-for(let num of arr){
+for(let item of arr){
 
-    if (num==element) {
+    if (element==item) {
         console.log(true)
     }
     else{
